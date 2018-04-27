@@ -1,0 +1,451 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.logo{
+	float: left;
+	position: relative;
+	left: 100px;
+}
+.tiandan {
+	float: right;
+	position: relative;
+	right: 200px;
+	top: 50px;
+}
+
+.wrapper{
+	position: relative;
+	top: 90px;
+}
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: gold;
+}
+
+li {
+	list-style: none;
+}
+
+.number li {
+	float: left;
+}
+
+.word li {
+	height: 20px;
+	font-size: 14px;
+	text-align: center;
+	float: left;
+	width: 109px;
+}
+
+.green {
+	background-color: green;
+	color: #fff;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 19px;
+	font-size: 14px;
+}
+
+.green-line {
+	background-color: green;
+	border-radius: 0;
+	height: 5px;
+	width: 90px;
+	display: inline;
+	position: relative;
+	top: 8px;
+}
+
+.grey {
+	background-color: grey;
+	color: #fff;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 19px;
+	font-size: 14px;
+}
+
+.grey-line {
+	background-color: grey;
+	border-radius: 0;
+	height: 5px;
+	width: 90px;
+	display: inline;
+	position: relative;
+	top: 8px;
+}
+
+.green1 {
+	color: green;
+}
+
+.grey1 {
+	color: grey;
+}
+
+.tianxie {
+	float: right;
+	position: relative;
+	right: -122px;
+	top: 30px;
+}
+
+.box {
+	border: 3px solid darkseagreen;
+	width: 50%;
+	height: 500px;
+	background-color: #F0F0F0;
+	position: relative;
+	top: 100px;
+	margin: auto;
+}
+
+
+.kong{
+	
+	height: 30px;
+}
+.kong1{
+	clear: both;
+	height: 20px;
+}
+/*日期*/
+.date{
+	float: left;
+	
+}
+.date_picker{
+	float: left;
+	position: relative;
+	bottom: 5px;
+}
+.date_selector,
+.date_selector * {
+	width: auto;
+	height: auto;
+	border: none;
+	background: none;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	text-decoration: none;
+}
+
+.date_selector {
+	background: #fbfbfb;
+	border: 1px solid #ccc;
+	padding: 10px;
+	margin: 0;
+	margin-top: -1px;
+	position: absolute;
+	z-index: 100000;
+	display: none;
+	border-radius: 3px;
+	box-shadow: 0 0 5px #aaa;
+	box-shadow: 0 2px 2px #ccc;
+	width: 300px;
+}
+
+.date_selector_ieframe {
+	position: absolute;
+	z-index: 99999;
+	display: none;
+	top: 100px;
+}
+
+.date_selector .nav {
+	width: 17.5em;
+}
+
+.date_selector .nav p {
+	clear: none;
+}
+
+.date_selector .month_nav,
+.date_selector .year_nav {
+	margin: 0 0 3px 0;
+	padding: 0;
+	display: block;
+	position: relative;
+	text-align: center;
+}
+
+.date_selector .month_nav {
+	float: left;
+	width: 55%;
+}
+
+.date_selector .year_nav {
+	float: right;
+	width: 42%;
+	margin-right: -8px;
+}
+
+.date_selector .month_name,
+.date_selector .year_name {
+	font-weight: bold;
+	line-height: 20px;
+}
+
+.date_selector .button {
+	display: block;
+	position: absolute;
+	top: 0;
+	width: 18px;
+	height: 18px;
+	line-height: 16px;
+	font-weight: bold;
+	color: #5985c7;
+	text-align: center;
+	font-size: 12px;
+	overflow: hidden;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+
+.date_selector .button:hover,
+.date_selector .button.hover {
+	background: #5985c7;
+	color: #fff;
+	cursor: pointer;
+	border-color: #3a930d;
+}
+
+.date_selector .prev {
+	left: 0;
+}
+
+.date_selector .next {
+	right: 0;
+}
+
+.date_selector table {
+	border-spacing: 0;
+	border-collapse: collapse;
+	clear: both;
+	margin: 0;
+	width: 220px;
+}
+
+.date_selector th,
+.date_selector td {
+	width: 2.5em;
+	height: 2em;
+	padding: 0 !important;
+	text-align: center !important;
+	color: #666;
+	font-weight: normal;
+}
+
+.date_selector th {
+	font-size: 12px;
+}
+
+.date_selector td {
+	border: 1px solid #f1f1f1;
+	line-height: 2em;
+	text-align: center;
+	white-space: nowrap;
+	color: #5985c7;
+	background: #fff;
+}
+
+.date_selector td.today {
+	background: #eee;
+}
+
+.date_selector td.unselected_month {
+	color: #ccc;
+}
+
+.date_selector td.selectable_day {
+	cursor: pointer;
+}
+
+.date_selector td.selected {
+	background: #2b579a;
+	color: #fff;
+	font-weight: bold;
+}
+
+.date_selector td.selectable_day:hover,
+.date_selector td.selectable_day.hover {
+	background: #5985c7;
+	color: #fff;
+}
+/*出游人数*/
+.number-person{
+	clear: left;
+	float: left;
+	position: relative;
+	top: 10px;
+}
+.form-content{
+	display: inline-block;
+	margin-left: 15px;
+	font-size: 12px;
+	max-width: 650px;
+	vertical-align: top;
+	line-height: 20px;
+	float: left;
+}
+.amount-disable{
+	color: #ddd;
+	
+}
+.minus-btn,.plus-btn{
+	user-select:none;
+	-ms-user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+}
+.minus-btn{
+	float: left;
+	width: 25px;
+	height: 27px;
+    border: 1px solid #ddd;
+    border-right: none;
+    text-align: center;
+    color: #333;
+    cursor: pointer;
+}
+.amount-input{
+	width: 33px;
+	height: 25px;
+	border: 1px solid #ddd;
+	float: left;
+	display: inline-block;
+	display: inline;
+	zoom: 1;
+	text-align: center;
+	color: #666;
+	line-height: 25px;
+	font-size: 12px;
+	color: #666;
+	appearance: none;
+	
+}
+.plus-btn{
+	float: left;
+	width: 25px;
+	height: 27px;
+	border: 1px solid #ddd;
+	border-left: none;
+	text-align: center;
+	color: #333;
+	cursor: pointer;
+}
+.max-num{
+	position: relative;
+	bottom: 30px;
+	left: 175px;
+	
+}
+
+/*取票人信息*/
+.qupiaonews{
+	font-size: 20px;
+	color: #FF4500;
+}
+.qupiao{
+	clear: both;
+	float: left;
+	
+}
+.qupiao2{
+	clear: both;
+	float: left;
+	position: relative;
+	top: 10px;
+}
+.phone{
+	clear: both;
+	float: left;
+	position: relative;
+	top: 20px;
+}
+.email{
+	clear: both;
+	float: left;
+	position: relative;
+	top: 30px;
+}
+/*是否同意协议*/
+.protocol-box{
+	position: relative;
+	top: 120px;
+	left: 400px;
+	
+}
+/*订单金额*/
+.money{
+	position: relative;
+	top: 150px;
+	left: 380px;
+	width: 50%;
+	height: 100px;
+	
+	background-color: bisque;
+}
+.total-money{
+	float: left;
+	position: relative;
+	top: 40px;
+	left: 40px;
+}
+.pay{
+	float: left;
+	position: relative;
+	left: 500px;
+	top: 40px;
+}
+.rmb{
+	color: #FF4500;
+}
+.total{
+	color: #FF4500;
+}
+.pay1{
+	background-color: #FF4500;
+	color: #F0F0F0;
+	padding: 5px 6px 5px 6px;
+}
+/*联系我们*/
+.lainxi{
+	background-color: #FF4500;
+	padding: 8px;
+	position: fixed;
+	left: 1480px;
+	bottom: 200px;
+	color: #F0F0F0;
+	
+}
+/*配送信息*/
+.peisong{
+	clear: both;
+	float: left;
+	position: relative;
+	top: 40px;
+}
+.dizhi2{
+	display: block;
+	position: relative;
+	top: 10px;
+	left: 14px;
+}
+#tu{
+	position: relative;
+	bottom: 80px;
+	width:250px; 
+	height:200px;
+	
+}
