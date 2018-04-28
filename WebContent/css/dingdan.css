@@ -449,3 +449,9 @@ li {
 	height:200px;
 	
 }
+.clock{
+	float: right;
+	position: relative;
+	left: 200px;
+	top: 130px;
+}

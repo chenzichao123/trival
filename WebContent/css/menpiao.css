@@ -23,10 +23,7 @@ a:hover{
 	margin-right: 10px;
 	margin-bottom: 10px;
 }
-.view{
-	
-	
-}
+
 .view1{
 	clear: both;
 	border-top: 2px solid red;
@@ -45,34 +42,20 @@ h3{
 	left: 25px;
 	top: 10px;
 }
-.view1 .dizhi1{
+.dizhi{
+	clear: both;
 	float: left;
-	position:relative;
-	left: -135px;
-	top: 70px;
+	position: relative;
+	left: 226px;
+	bottom: 60px;
 	font-size: 16px;
 	font-family: "微软雅黑";
 }
-.view2 .dizhi1{
-	float: left;
-	position:relative;
-	left: -170px;
-	top: 70px;
-	font-size: 16px;
-	font-family: "微软雅黑";
-}
-.view3 .dizhi1{
-	float: left;
-	position:relative;
-	left: -205px;
-	top: 70px;
-	font-size: 16px;
-	font-family: "微软雅黑";
-}
+
 .price{
 	position: relative;
 	right: 635px ;
-	bottom: 70px;
+	bottom: 130px;
 	float: right;
 	color: red;
 	clear: both;
@@ -82,20 +65,12 @@ h3{
 }
 .yuding{
 	background-color: orangered;
+	clear:both;
 	float: right;
 	position: relative;
-	right: 550px;
-	bottom: 30px;
+	right: 650px;
+	bottom: 110px;
 	
 	padding: 3px 17px 3px 17px;
 }
-.view2{
-	clear: both;
-	border-top: 2px solid red;
-	
-}
-.view3{
-	clear: both;
-	border-top: 2px solid red;
-	
-}
+
